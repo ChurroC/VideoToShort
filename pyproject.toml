@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "val-deathmatch-uploader"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "val_deathmatch_uploader"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+moviepy = "^1.0.3"
+opencv-python = "^4.7.0.72"
+valorant = "^1.0.4"
+python-dotenv = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+#poetry run python val_deathmatch_uploader/main.py
